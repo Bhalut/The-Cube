@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f916421e8ec074487aee3f0189da4bf3
+timeCreated: 1513059150
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Geostar Fill
+  fontNames:
+  - Geostar Fill
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
