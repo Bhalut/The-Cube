@@ -104,7 +104,7 @@ public class Enemy : MonoBehaviour
 			// The enemy is dead.
 			isDead = true;
 
-			Destroy (gameObject, 2f);
+			Destroy (gameObject);
 			// Tell the animator that the enemy is dead.
 			//anim.SetTrigger ("Dead");
 	}

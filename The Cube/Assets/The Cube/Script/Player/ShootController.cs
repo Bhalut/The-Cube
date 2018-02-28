@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class ShootController : MonoBehaviour {
 
-	public int dange = 20;
+	public int dange = 45;
 	public float timeBullet = 0.15f;
 	public float range = 100f;
-	public Larry _player;
 
 	private int shootableMask;
 	private float timer;
@@ -29,7 +28,8 @@ public class ShootController : MonoBehaviour {
 		shootableMask = LayerMask.GetMask ("Shooteable");
 	}
 
-	void Update () {
+	void Update () 
+    {
 		if (Time.timeScale == 1)
 		{
 			timer += Time.deltaTime;
